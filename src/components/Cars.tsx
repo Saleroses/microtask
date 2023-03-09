@@ -18,7 +18,7 @@ const Cars = (props: Props) => {
             <table>
                 {props.topCars.map((ArrayTopCars, index) => {
                     return (
-                        <tr>
+                        <tr key={index}>
                             <td>{ArrayTopCars.manufacturer}</td>
                             <td>{ArrayTopCars.model}</td>
                         </tr>

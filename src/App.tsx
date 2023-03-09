@@ -3,6 +3,7 @@ import './App.css';
 import Cars from "./components/Cars";
 import {topCars} from "./components/TopCars";
 import Button from "./components/Button";
+import UseState from "./components/useState";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <>
             <Cars topCars={topCars} />
             <Button />
+            <UseState />
         </>
     )
 }
